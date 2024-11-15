@@ -19,7 +19,7 @@ console.log(alwaysHello("Test function"))
 console.log(alwaysHello([2,4,6]))
 
 /*
-...args will accept any arguments at all and ignore it so that only "Hello World" is run always
+...args is a spread operator will accept any arguments at all and ignore it so that only "Hello World" is run always
 return "Hello World" gives back the exact string 
 when alwaysHello() is called it return "Hello World" no matter the value of the argument passed 
 */
